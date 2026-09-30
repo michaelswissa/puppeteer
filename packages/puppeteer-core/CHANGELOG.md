@@ -1,5 +1,25 @@
 # Changelog
 
+## [25.13.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-core-v25.12.0...puppeteer-core-v25.13.0) (2026-09-30)
+
+
+### 🎉 Features
+
+* **network:** add asFetchResponse method to HTTPResponse ([#15446](https://github.com/puppeteer/puppeteer/issues/15446)) ([6ab0419](https://github.com/puppeteer/puppeteer/commit/6ab04192ac35d81609da29c6fe4769a3f72ba510))
+
+
+### 🛠️ Fixes
+
+* **cdp:** settle worker evaluate and close when the script fails to load ([#15501](https://github.com/puppeteer/puppeteer/issues/15501)) ([02c2a3d](https://github.com/puppeteer/puppeteer/commit/02c2a3d57550eef82c33a9d45236823ab499b885))
+* **webdriver:** close the browser process when the BiDi close command fails ([#15469](https://github.com/puppeteer/puppeteer/issues/15469)) ([9e5fefa](https://github.com/puppeteer/puppeteer/commit/9e5fefac4fdd7bb1476441598bca078de608fc71))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @puppeteer/browsers bumped from 3.2.3 to 3.2.4
+
 ## [25.12.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-core-v25.11.0...puppeteer-core-v25.12.0) (2026-09-23)
 
 
